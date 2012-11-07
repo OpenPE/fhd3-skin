@@ -631,7 +631,7 @@ ABC HD - Copyright (C) 2012 GPL-III by CooST
       <convert type="ClockToText">Default</convert>
     </widget>
     <widget source="Title" render="Label" position="98,36" size="650,36" font="Regular; 30" backgroundColor="blue2" transparent="1" foregroundColor="white" halign="left" />
-    <eLabel text="Choose bouquet" position="50,638" size="700,28" font="Regular;23" backgroundColor="background" transparent="1" />
+    <eLabel text="Choose Bouquet" position="50,638" size="700,28" font="Regular;23" backgroundColor="background" transparent="1" />
     <widget name="menu" position="51,114" size="487,450" zPosition="3" itemHeight="30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" />
   </screen>
   <!-- Kanalauswahl -->
@@ -646,7 +646,7 @@ ABC HD - Copyright (C) 2012 GPL-III by CooST
       <convert type="ClockToText">Default</convert>
     </widget>
     <widget source="Title" render="Label" position="98,36" size="650,36" font="Regular; 30" backgroundColor="blue2" transparent="1" foregroundColor="white" halign="left" />
-    <eLabel text="Channellist menu" position="60,85" size="700,28" font="Regular;23" backgroundColor="background" transparent="1" />
+    <eLabel text="Channels List" position="60,85" size="700,28" font="Regular;23" backgroundColor="background" transparent="1" />
     <eLabel position="60,120" size="700,2" backgroundColor="grey" />
     <widget name="menu" position="60,130" size="700,450" zPosition="3" itemHeight="30" scrollbarMode="showOnDemand" enableWrapAround="1" transparent="1" />
   </screen>
@@ -710,14 +710,14 @@ ABC HD - Copyright (C) 2012 GPL-III by CooST
     <widget source="global.CurrentTime" render="Label" position="35,674" size="350,25" font="Regular;20" halign="left" backgroundColor="backtop" transparent="1">
       <convert type="ClockToText">Date</convert>
     </widget>
-    <widget source="Title" render="Label" position="45,19" size="455,39" font="Regular;35" backgroundColor="white" transparent="1" foregroundColor="black" text="Eingabe - Input" halign="center" />
+    <widget source="Title" render="Label" position="45,19" size="455,39" font="Regular;35" backgroundColor="white" transparent="1" foregroundColor="black" text="Input" halign="center" />
     <widget name="text" position="549,562" size="1045,60" font="Regular; 21" halign="left" transparent="1" valign="top" foregroundColor="white" backgroundColor="background" />
     <widget name="list" position="25,85" size="484,395" itemHeight="30" font="Regular; 24" scrollbarMode="showOnDemand" enableWrapAround="1" backgroundColor="background" transparent="1" render="Listbox" foregroundColor="white" />
     <ePixmap position="514,668" size="39,34" zPosition="10" pixmap="FHD3-Eminem/buttons/key_ok.png" transparent="1" alphatest="blend" />
   </screen>
   <!-- Konsole -->
   <screen name="Console" position="center,center" size="1100,500" title="Command execution..." flags="wfBorder" backgroundColor="background">
-    <eLabel text="Please wait..." position="110,470" size="854,28" font="Regular; 18" halign="center" foregroundColor="white" backgroundColor="background" transparent="1" />
+    <eLabel text="Please Wait" position="110,470" size="854,28" font="Regular; 18" halign="center" foregroundColor="white" backgroundColor="background" transparent="1" />
     <widget source="global.CurrentTime" render="Label" position="1000,7" size="100,28" font="Regular;26" halign="right" backgroundColor="backtop" transparent="1">
       <convert type="ClockToText">Default</convert>
     </widget>
@@ -3609,7 +3609,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
     <eLabel position="320,651" size="200,22" text="Rename" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
     <eLabel position="550,651" size="200,22" text="Move/Copy" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
     <eLabel position="760,651" size="200,22" text="Bookmarks" zPosition="1" font="Regular;20" halign="left" backgroundColor="black" transparent="1" />
-    <eLabel position="1010,516" size="200,120" font="Regular; 30" halign="center" valign="center" text="Coded by Vali" backgroundColor="background" transparent="1" />
+    <eLabel position="1010,516" size="200,120" font="Regular; 30" halign="center" valign="center" text="" backgroundColor="background" transparent="1" />
   </screen>
   <screen name="vEditor" position="0,0" size="1280,720" title="File-Explorer" flags="wfNoBorder">
     <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="FHD3-Eminem/menu/w1.png" alphatest="blend" />
@@ -3928,7 +3928,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Default</convert>
     </widget>
     <widget source="Title" render="Label" position="98,36" size="650,36" font="Regular; 30" backgroundColor="blue2" transparent="1" foregroundColor="white" halign="left" />
-    <eLabel text="Stadtauswahl" position="835,140" size="350,79" font="Regular;28" halign="center" backgroundColor="backtop" transparent="1" />
+    <eLabel text="City selection" position="835,140" size="350,79" font="Regular;28" halign="center" backgroundColor="backtop" transparent="1" />
     <widget name="Mlist" position="100,125" size="734,503" zPosition="3" itemHeight="35" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColorSelected="#565656" backgroundColor="backtop" transparent="1" />
     <ePixmap pixmap="FHD3-Eminem/buttons/red.png" position="96,635" size="27,38" alphatest="blend" />
     <ePixmap pixmap="FHD3-Eminem/buttons/yellow.png" position="325,635" size="28,37" alphatest="blend" />
@@ -3947,7 +3947,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Default</convert>
     </widget>
     <widget source="Title" render="Label" position="98,36" size="650,36" font="Regular; 30" backgroundColor="blue2" transparent="1" foregroundColor="white" halign="left" />
-    <eLabel text="Satelliten - Bilder / Europa - Karten" position="840,140" size="341,162" font="Regular;28" halign="center" backgroundColor="backtop" transparent="1" />
+    <eLabel text="Satellite images / Europe - Maps" position="840,140" size="341,162" font="Regular;28" halign="center" backgroundColor="backtop" transparent="1" />
     <widget name="Mlist" position="100,125" size="730,495" zPosition="3" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColorSelected="#565656" backgroundColor="backtop" transparent="1" />
     <ePixmap pixmap="FHD3-Eminem/buttons/red.png" position="94,635" size="29,38" alphatest="blend" />
     <ePixmap pixmap="FHD3-Eminem/buttons/yellow.png" position="326,635" size="27,37" alphatest="blend" />
@@ -3966,7 +3966,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Default</convert>
     </widget>
     <widget source="Title" render="Label" position="98,36" size="650,36" font="Regular; 30" backgroundColor="blue2" transparent="1" foregroundColor="white" halign="left" />
-    <eLabel text="Deutschland - Bundeslaender / Karten" position="840,140" size="341,162" font="Regular;28" halign="center" backgroundColor="backtop" transparent="1" />
+    <eLabel text="Germany - Federal States / Maps" position="840,140" size="341,162" font="Regular;28" halign="center" backgroundColor="backtop" transparent="1" />
     <widget name="Mlist" position="100,center" size="730,470" zPosition="3" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColorSelected="#565656" backgroundColor="backtop" transparent="1" />
     <ePixmap position="870,560" zPosition="2" size="350,44" pixmap="FHD3-Eminem/icons/db.png" transparent="1" alphatest="blend" />
     <ePixmap position="870,390" size="128,128" zPosition="2" pixmap="FHD3-Eminem/icons/weather.png" transparent="1" alphatest="blend" />
@@ -3979,7 +3979,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
       <convert type="ClockToText">Default</convert>
     </widget>
     <widget source="Title" render="Label" position="98,36" size="650,36" font="Regular; 30" backgroundColor="blue2" transparent="1" foregroundColor="white" halign="left" />
-    <eLabel text="Weltkarte - Kontinente" position="100,609" size="555,44" font="Regular;28" halign="center" backgroundColor="backtop" transparent="1" />
+    <eLabel text="World Map - Continents" position="100,609" size="555,44" font="Regular;28" halign="center" backgroundColor="backtop" transparent="1" />
     <widget name="Mlist" position="100,125" size="1050,475" zPosition="3" enableWrapAround="1" scrollbarMode="showOnDemand" backgroundColorSelected="#565656" backgroundColor="backtop" transparent="1" />
     <ePixmap position="870,560" zPosition="2" size="350,44" pixmap="FHD3-Eminem/icons/db.png" transparent="1" alphatest="blend" />
     <ePixmap position="870,390" size="128,128" zPosition="2" pixmap="FHD3-Eminem/icons/weather.png" transparent="1" alphatest="blend" />
