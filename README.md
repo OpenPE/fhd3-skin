@@ -1,6 +1,6 @@
-FHD3 Skin By Naser (Eminem) - Based On ABC HD Skin By CooST
+FHD3 skin by Naser (Eminem) - Based on ABC HD skin by CooST
 =========
 
-Persian Professionals Official Website :
+Persian Professionals official website :
 
 https://pe4k.com
